@@ -4,8 +4,8 @@ spring:
       client:
         registration:
           discord:
-            client-id: 483591456569688077
-            client-secret: UpGVWlRswM8ccBj4gL35jkM4_8xRt_rv
+            client-id: ${DISCORD_CLIENT_ID}
+            client-secret: ${DISCORD_CLIENT_SECRET}
             client-name: EG Pilots Discord Server
             client-authentication-method: query
             authorizationGrantType: authorization_code
