@@ -1,0 +1,8 @@
+<h1>Hello, world</h1>
+
+<div class="container unauthenticated" sec:authorize="!isAuthenticated()">
+    With Facebook: <a href="/login">click here</a>
+</div>
+<div class="container unauthenticated" sec:authentication="name">
+    Bob
+</div>

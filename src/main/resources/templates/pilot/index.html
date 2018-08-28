@@ -1,0 +1,9 @@
+<h1>Hello, pilot</h1>
+
+<div class="container unauthenticated" sec:authorize="isAuthenticated()">
+    !!!!
+</div>
+
+Logged user: <span sec:authentication="name">Bob</span>
+
+Roles: <span sec:authentication="principal.authorities">[ROLE_USER, ROLE_ADMIN]</span>

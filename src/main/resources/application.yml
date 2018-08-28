@@ -1,0 +1,21 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          discord:
+            client-id: 483591456569688077
+            client-secret: UpGVWlRswM8ccBj4gL35jkM4_8xRt_rv
+            client-name: EG Pilots Discord Server
+            client-authentication-method: query
+            authorizationGrantType: authorization_code
+            scope:
+              - identify
+            redirect-uri-template: "{baseUrl}/login/oauth2/code/discord"
+        provider:
+          discord:
+            authorization-uri: https://discordapp.com/api/oauth2/authorize
+            token-uri: https://discordapp.com/api/oauth2/token
+            user-info-uri: https://discordapp.com/api/users/@me
+            username-attribute: username
+            
