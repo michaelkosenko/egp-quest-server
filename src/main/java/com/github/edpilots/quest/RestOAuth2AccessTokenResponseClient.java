@@ -57,6 +57,8 @@ public class RestOAuth2AccessTokenResponseClient implements
 
         AccessResponse accessResponse = response.getBody();
 
+        
+        
         Set<String> scopes = accessResponse.getScopes().isEmpty() ?
             authorizationGrantRequest.getAuthorizationExchange().getAuthorizationRequest().getScopes() : accessResponse.getScopes();
 
