@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
 @EnableWebMvc
-//@EnableMongoRepositories
+// @EnableMongoRepositories
 public class QuestServerApplication implements WebMvcConfigurer {
 
     public static void main(String[] args) {
@@ -18,8 +18,7 @@ public class QuestServerApplication implements WebMvcConfigurer {
     @Override
     public void addViewControllers(ViewControllerRegistry registry) {
         registry.addViewController("/pilot").setViewName("/pilot/index");
+        registry.addViewController("/").setViewName("/index");
     }
-    
-    
-    
+
 }

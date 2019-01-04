@@ -1,5 +1,7 @@
 package com.github.edpilots.quest;
 
+import static org.springframework.security.test.web.servlet.request.SecurityMockMvcRequestBuilders.logout;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -29,6 +31,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .authenticated()
             .anyRequest()
             .authenticated()
+            .and()
+            .logout().logoutSuccessUrl("/")
             .and()
             .oauth2Login()
                 .tokenEndpoint().accessTokenResponseClient(new RestOAuth2AccessTokenResponseClient(restOperations()))
