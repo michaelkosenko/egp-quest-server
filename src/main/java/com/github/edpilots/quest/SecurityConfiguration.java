@@ -32,12 +32,14 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
             .anyRequest()
             .authenticated()
             .and()
+            .csrf().disable()
             .logout().logoutSuccessUrl("/")
             .and()
             .oauth2Login()
                 .tokenEndpoint().accessTokenResponseClient(new RestOAuth2AccessTokenResponseClient(restOperations()))
                 .and()
                 .userInfoEndpoint().userService(new RestOAuth2UserService(restOperations(), discordProperties));
+            
     }
     
     @Bean

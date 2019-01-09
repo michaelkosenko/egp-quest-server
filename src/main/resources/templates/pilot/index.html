@@ -1,14 +1,18 @@
-<h1>Hello, pilot</h1>
+<!DOCTYPE html>
+<html th:replace="~{layout/main :: layout(~{::section})}"
+    xmlns:th="http://www.thymeleaf.org">
+<body>
+    <section>
+        <h1>Hello, pilot</h1>
 
-<div class="container unauthenticated" sec:authorize="isAuthenticated()">
-    !!!!
-</div>
-<br>
-Logged user: <span sec:authentication="name">Bob</span>
-<br>
-Roles: <span sec:authentication="principal.authorities">[ROLE_USER, ROLE_ADMIN]</span>
-<br>
-Email: <span sec:authentication="principal.attributes[email]">test@test.com</span>
-<br>
-
-principal: <span sec:authentication="principal">test@test.com</span>
+        <div class="container unauthenticated"
+            sec:authorize="isAuthenticated()">!!!!</div>
+        <br> Logged user: <span sec:authentication="name">Bob</span>
+        <br> Roles: <span
+            sec:authentication="principal.authorities">[ROLE_USER,
+            ROLE_ADMIN]</span> <br> Email: <span
+            sec:authentication="principal.attributes[email]">test@test.com</span>
+        <br> principal: <span sec:authentication="principal">test@test.com</span>
+    </section>
+</body>
+</html>

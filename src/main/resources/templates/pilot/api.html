@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html th:replace="~{layout/main :: layout(~{::section})}" xmlns:th="http://www.thymeleaf.org">
+<body>
+    <section>
+        <h1 th:text="#{pilot.api.header}">API</h1>
+        <form method="post" action="#" th:action="@{/pilot/api}">
+            <div class="form-group">
+                <label for="inputToken" th:text="#{pilot.api.token}">API токен</label> <input
+                    type="text" class="form-control"
+                    id="inputToken" aria-describedby="tokenHelp" th:value="${token}"> <small
+                    id="tokenHelp" class="form-text text-muted" th:text="#{pilot.api.token.help}">Токен для доступа к API</small>
+            </div>
+            <button type="submit" class="btn btn-primary" th:text="#{pilot.api.generate}">Сгенерировать новый</button>
+        </form>
+    </section>
+</body>
+</html>

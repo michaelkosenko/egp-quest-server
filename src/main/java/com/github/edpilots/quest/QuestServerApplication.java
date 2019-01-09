@@ -21,4 +21,6 @@ public class QuestServerApplication implements WebMvcConfigurer {
         registry.addViewController("/").setViewName("/index");
     }
 
+    
+    
 }
