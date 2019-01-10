@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: @build.profile.id@
   security:
     oauth2:
       client:
@@ -19,9 +21,20 @@ spring:
             token-uri: https://discordapp.com/api/oauth2/token
             user-info-uri: https://discordapp.com/api/users/@me
             username-attribute: username
-  data:
-    mongodb:
-      database: egpilots
 discord:
   bot:
     token: ${DISCORD_BOT_TOKEN}
+---
+
+spring:
+  profiles: dev
+  data:
+    mongodb:
+      uri: mongodb://localhost/egpilots
+---
+      
+spring:
+  profiles: test
+  data:
+    mongodb:
+      uri: mongodb://${MONGO_USER}:${MONGO_PASSWORD}@ds153814.mlab.com:53814/heroku_d71mzs3t
