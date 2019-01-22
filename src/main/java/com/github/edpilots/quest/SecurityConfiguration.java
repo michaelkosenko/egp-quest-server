@@ -25,7 +25,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         http
             .antMatcher("/**")
             .authorizeRequests()
-            .antMatchers("/", "/login**")
+            .antMatchers("/", "/login**", "/edmc")
             .permitAll()
             .antMatchers("/pilot**")
             .authenticated()
