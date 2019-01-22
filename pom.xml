@@ -87,6 +87,9 @@
                 <version>1.4.9</version>
                 <configuration>
                     <repository>mak256/${project.artifactId}</repository>
+                    <buildArgs>
+                        <DEPENDENCY>target/dependency</DEPENDENCY>
+                    </buildArgs>
                 </configuration>
             </plugin>
             <plugin>
