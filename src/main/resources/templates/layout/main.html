@@ -64,10 +64,10 @@
                             <i class="fas fa-user"></i> <span sec:authentication="name">Bob</span>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#" th:href="@{/pilot}">Profile</a>
-                            <a class="dropdown-item" href="#" th:href="@{/pilot/api}">Profile</a>
+                            <a class="dropdown-item" href="#" th:href="@{/pilot}" th:text="#{main.menu.profile}">Profile</a>
+                            <a class="dropdown-item" href="#" th:href="@{/pilot/api}" th:text="#{main.menu.api.token}">API token</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#" th:href="@{/logout}">Logout</a>
+                            <a class="dropdown-item" href="#" th:href="@{/logout}" th:text="#{main.menu.logout}">Logout</a>
                         </div>
                     </div></li>
             </ul>
