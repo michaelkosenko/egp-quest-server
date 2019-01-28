@@ -31,6 +31,10 @@ spring:
   data:
     mongodb:
       uri: mongodb://localhost/egpilots
+logging:
+  level:
+    com.github.edpilots: DEBUG
+    
 ---
       
 spring:
@@ -38,3 +42,6 @@ spring:
   data:
     mongodb:
       uri: mongodb://mongo/egpilots
+logging:
+  level:
+    com.github.edpilots: DEBUG

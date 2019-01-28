@@ -1,0 +1,179 @@
+{
+	"SystemEconomy_Localised": "\u041a\u043e\u043b\u043e\u043d\u0438\u044f",
+	"SystemSecurity_Localised": "\u0421\u0440\u0435\u0434\u043d. \u0443\u0440. \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438",
+	"SystemGovernment_Localised": "\u041a\u043e\u0440\u043f\u043e\u0440\u0430\u0442\u0438\u0432\u043d\u0430\u044f",
+	"FuelLevel": 55.394264,
+	"StarPos": [
+		-37.78125,
+		0.53125,
+		63.90625
+	],
+	"SystemEconomy": "$economy_Colony;",
+	"PowerplayState": "Exploited",
+	"SystemAddress": 9466510648769,
+	"Factions": [
+		{
+			"Name": "Pilots Federation Local Branch",
+			"FactionState": "None",
+			"Government": "Democracy",
+			"Influence": 0.0,
+			"Allegiance": "PilotsFederation",
+			"Happiness": "",
+			"MyReputation": 8.71924
+		},
+		{
+			"Name": "Silver Dynamic Interstellar",
+			"FactionState": "None",
+			"Government": "Corporate",
+			"Influence": 0.131131,
+			"Allegiance": "Federation",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": -75.0,
+			"RecoveringStates": [
+				{
+					"State": "PirateAttack",
+					"Trend": 0
+				}
+			]
+		},
+		{
+			"Name": "Apoyota & Co",
+			"FactionState": "War",
+			"Government": "Corporate",
+			"Influence": 0.115115,
+			"Allegiance": "Independent",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": -38.5089,
+			"ActiveStates": [
+				{
+					"State": "PirateAttack"
+				},
+				{
+					"State": "Boom"
+				},
+				{
+					"State": "War"
+				}
+			]
+		},
+		{
+			"Name": "Ekonir Legal Inc",
+			"FactionState": "Investment",
+			"Government": "Corporate",
+			"Influence": 0.331331,
+			"Allegiance": "Federation",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": 0.0,
+			"RecoveringStates": [
+				{
+					"State": "PirateAttack",
+					"Trend": 0
+				}
+			],
+			"ActiveStates": [
+				{
+					"State": "Investment"
+				}
+			]
+		},
+		{
+			"Name": "Ekonir Nobles",
+			"FactionState": "CivilWar",
+			"Government": "Feudal",
+			"Influence": 0.115115,
+			"Allegiance": "Independent",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": 0.0,
+			"ActiveStates": [
+				{
+					"State": "CivilWar"
+				}
+			]
+		},
+		{
+			"Name": "Ekonir Organisation",
+			"FactionState": "Boom",
+			"Government": "Anarchy",
+			"Influence": 0.077077,
+			"Allegiance": "Independent",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": 0.0,
+			"RecoveringStates": [
+				{
+					"State": "PirateAttack",
+					"Trend": 0
+				}
+			],
+			"ActiveStates": [
+				{
+					"State": "Boom"
+				}
+			]
+		},
+		{
+			"Name": "Ekonir Partnership",
+			"FactionState": "CivilWar",
+			"Government": "Confederacy",
+			"Influence": 0.115115,
+			"Allegiance": "Federation",
+			"Happiness": "$Faction_HappinessBand3;",
+			"Happiness_Localised": "\u041d\u0435\u0443\u0434\u043e\u0432\u043b\u0435\u0442\u0432\u043e\u0440\u0435\u043d\u0438\u0435",
+			"MyReputation": 0.0,
+			"ActiveStates": [
+				{
+					"State": "Outbreak"
+				},
+				{
+					"State": "CivilWar"
+				}
+			]
+		},
+		{
+			"Name": "Blood Rider",
+			"FactionState": "War",
+			"Government": "Anarchy",
+			"Influence": 0.115115,
+			"Allegiance": "Independent",
+			"Happiness": "$Faction_HappinessBand2;",
+			"Happiness_Localised": "\u0421\u0447\u0430\u0441\u0442\u044c\u0435",
+			"MyReputation": 0.0,
+			"RecoveringStates": [
+				{
+					"State": "PirateAttack",
+					"Trend": 0
+				}
+			],
+			"ActiveStates": [
+				{
+					"State": "Boom"
+				},
+				{
+					"State": "War"
+				}
+			]
+		}
+	],
+	"Powers": [
+		"Zachary Hudson"
+	],
+	"event": "FSDJump",
+	"SystemGovernment": "$government_Corporate;",
+	"StarSystem": "Ekonir",
+	"JumpDist": 18.419,
+	"SystemSecondEconomy_Localised": "\u041f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u0430",
+	"SystemFaction": {
+		"Name": "Ekonir Legal Inc",
+		"FactionState": "Investment"
+	},
+	"SystemSecondEconomy": "$economy_Refinery;",
+	"SystemSecurity": "$SYSTEM_SECURITY_medium;",
+	"FuelUsed": 8.605736,
+	"timestamp": "2019-01-24T12:34:23Z",
+	"SystemAllegiance": "Federation",
+	"Population": 74277
+} 

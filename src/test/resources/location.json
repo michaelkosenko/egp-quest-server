@@ -1,0 +1,171 @@
+{
+    "SystemEconomy_Localised": "Сельское хозяйство",
+    "StationFaction": {
+        "Name": "Official Clayakarma Defence Force",
+        "FactionState": "CivilLiberty"
+    },
+    "SystemEconomy": "$economy_Agri;",
+    "SystemSecurity_Localised": "Средн. ур. безопасности",
+    "PowerplayState": "HomeSystem",
+    "StationEconomies": [
+        {
+            "Name": "$economy_Agri;",
+            "Name_Localised": "Сельское хозяйство",
+            "Proportion": 1.0
+        }
+    ],
+    "StationEconomy_Localised": "Сельское хозяйство",
+    "Factions": [
+        {
+            "Name": "Pilots Federation Local Branch",
+            "FactionState": "None",
+            "Government": "Democracy",
+            "Influence": 0.0,
+            "Allegiance": "PilotsFederation",
+            "Happiness": "",
+            "MyReputation": 8.71924
+        },
+        {
+            "Name": "People's Clayakarma Resistance",
+            "FactionState": "None",
+            "Government": "Democracy",
+            "Influence": 0.035,
+            "Allegiance": "Federation",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "MyReputation": 18.48
+        },
+        {
+            "Name": "Clayakarma Electronics Partners",
+            "FactionState": "None",
+            "Government": "Corporate",
+            "Influence": 0.101,
+            "Allegiance": "Federation",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "MyReputation": 4.62
+        },
+        {
+            "Name": "Ngaliba Network",
+            "FactionState": "None",
+            "Government": "Corporate",
+            "Influence": 0.061,
+            "Allegiance": "Independent",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "MyReputation": -60.0
+        },
+        {
+            "Name": "Official Clayakarma Defence Force",
+            "FactionState": "CivilLiberty",
+            "Government": "Dictatorship",
+            "Influence": 0.377,
+            "Allegiance": "Independent",
+            "Happiness": "$Faction_HappinessBand1;",
+            "Happiness_Localised": "Ликование",
+            "MyReputation": -47.682201,
+            "PendingStates": [
+                {
+                    "State": "Investment",
+                    "Trend": 0
+                }
+            ],
+            "ActiveStates": [
+                {
+                    "State": "CivilLiberty"
+                }
+            ]
+        },
+        {
+            "Name": "Clayakarma Electronics Limited",
+            "FactionState": "None",
+            "Government": "Corporate",
+            "Influence": 0.045,
+            "Allegiance": "Independent",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "MyReputation": 42.939999
+        },
+        {
+            "Name": "Clayakarma Purple Mob",
+            "FactionState": "None",
+            "Government": "Anarchy",
+            "Influence": 0.046,
+            "Allegiance": "Independent",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "MyReputation": -11.88
+        },
+        {
+            "Name": "EG Union",
+            "FactionState": "Boom",
+            "Government": "Dictatorship",
+            "Influence": 0.335,
+            "Allegiance": "Independent",
+            "Happiness": "$Faction_HappinessBand2;",
+            "Happiness_Localised": "Счастье",
+            "SquadronFaction": true,
+            "MyReputation": 100.0,
+            "ActiveStates": [
+                {
+                    "State": "Boom"
+                }
+            ]
+        }
+    ],
+    "event": "Location",
+    "SystemGovernment": "$government_Dictatorship;",
+    "Body": "Duke City",
+    "SystemSecondEconomy_Localised": "Туризм",
+    "SystemFaction": {
+        "Name": "Official Clayakarma Defence Force",
+        "FactionState": "CivilLiberty"
+    },
+    "SystemSecondEconomy": "$economy_Tourism;",
+    "SystemSecurity": "$SYSTEM_SECURITY_medium;",
+    "timestamp": "2019-01-24T14:20:08Z",
+    "Population": 3809324026,
+    "StationServices": [
+        "Dock",
+        "Autodock",
+        "Commodities",
+        "Contacts",
+        "Exploration",
+        "Missions",
+        "Outfitting",
+        "CrewLounge",
+        "Rearm",
+        "Refuel",
+        "Repair",
+        "Shipyard",
+        "Tuning",
+        "Workshop",
+        "MissionsGenerated",
+        "FlightController",
+        "StationOperations",
+        "Powerplay",
+        "SearchAndRescue",
+        "StationMenu"
+    ],
+    "StationGovernment_Localised": "Диктатура",
+    "StationGovernment": "$government_Dictatorship;",
+    "StarPos": [
+        -20.5,
+        -4.96875,
+        60.6875
+    ],
+    "SystemAllegiance": "Independent",
+    "SystemAddress": 6680922297058,
+    "Powers": [
+        "Yuri Grom"
+    ],
+    "StarSystem": "Clayakarma",
+    "StationEconomy": "$economy_Agri;",
+    "BodyType": "Station",
+    "SystemGovernment_Localised": "Диктатура",
+    "BodyID": 12,
+    "MarketID": 3230482176,
+    "StationName": "Duke City",
+    "StationType": "Orbis",
+    "Docked": true
+}

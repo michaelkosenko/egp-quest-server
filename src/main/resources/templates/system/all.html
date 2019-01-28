@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html th:replace="~{layout/main :: layout(~{::section})}" xmlns:th="http://www.thymeleaf.org">
+<body>
+    <section>
+        <h1 th:text="#{system.all.header}">Systems</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th th:text="#{system.all.table.name}"></th>
+                    <th th:text="#{system.all.table.population}"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="system: ${systems}">
+                    <td th:text="${system.name}"></td>
+                    <td th:text="${system.population}"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>
